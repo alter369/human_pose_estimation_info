@@ -1,0 +1,34 @@
+Information
+===========
+
+This is a sample implementation of the 3D pose estimation method described in [1]. It requires the code for learning sparse bases [2] and optimizing the 3D pose from 2D joint locations.
+
+Please download the code from:
+(1)  http://spams-devel.gforge.inria.fr/
+(2) http://cvxr.com/cvx/ respectively
+and put them in the root directory
+
+The package includes a demo (see demo.m) which shows how to use the code. In particular, the demo estimates 3D poses on the HumanEva dataset. The 2D joint locations and the limb lengths are assumed known in this demo, which need to be modified for your own problem.
+
+
+Acknowledgements: We graciously thank the authors of the previous code releases, e.g., the SPAMS [3] and CVX [2], for making them publically available.
+
+Requires HumanEva dataset
+
+
+
+References
+==========
+
+[1] C. Wang, Y. Wang, Z. Lin, A. Yuille. Robust 3D pose estimation from a single image. CVPR 2014
+
+[2] M. Grant and S. Boyd. CVX: Matlab software for disciplined convex programming, version 2.0 beta. http://cvxr.com/cvx, September 2013.
+
+[3] J. Mairal, F. Bach, J. Ponce and G. Sapiro. Online Learning for Matrix Factorization and Sparse Coding. Journal of Machine Learning Research, volume 11, pages 19-60. 2010.
+
+
+
+Version Update
+=======================
+
+
